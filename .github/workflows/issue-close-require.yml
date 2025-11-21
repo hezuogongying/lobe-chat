@@ -1,10 +1,7 @@
+# ⚠️  定时任务已被禁用以避免不必要的邮件通知
 name: Issue Close Require
 
-on:
-  schedule:
-    - cron: '0 0 * * *'
-
-permissions:
+on:permissions:
   contents: read
 
 jobs:
